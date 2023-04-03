@@ -1,0 +1,22 @@
+.button {
+  display: inline-block;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+.button:hover,
+.button:focus {
+  border-color: red;
+  background-color: red;
+  color: #fff;
+}
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info {
+  font-weight: 500;
+  margin: 0;
+}
